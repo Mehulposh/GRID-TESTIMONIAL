@@ -1,0 +1,93 @@
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+  /* color: hsl(219, 29%, 14%); */
+  /* line-height: 1.5; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.testimonials img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.name{
+    color: hsl(0, 0%, 81%);
+    margin-bottom: 0;
+}
+
+.title{
+    color: hsl(210, 46%, 95%);
+    margin-top: 0;
+    /* opacity: 0.5; */
+}
+
+.description{
+    font-weight: 600;
+    color: white;
+    margin-top: 0;
+
+}
+
+/* .black{
+    color: black;
+} */
+.review{
+    color: hsl(210, 46%, 95%);
+    /* opacity: 70%; */
+}
+
+#item1{
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 30px;
+}
+
+#item2{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#item3{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#item4{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 30px;
+}
+
+#item5{
+    background-color: brown;
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 30px;
+}
